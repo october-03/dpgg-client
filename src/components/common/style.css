@@ -1,0 +1,7 @@
+.topbar-left > .topbar-item {
+  margin-right: min(2vw, 39px);
+}
+
+.topbar-left > .topbar-item:last-child {
+  margin-right: 0px;
+}
