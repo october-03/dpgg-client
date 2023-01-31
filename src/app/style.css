@@ -1,0 +1,11 @@
+.background {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../public/images/bg.png");
+  opacity: 0.5;
+  z-index: -1000;
+}
