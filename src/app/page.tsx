@@ -1,4 +1,5 @@
 import NavBar from "@/components/common/NavBar";
+import Input from "@/components/main/Input";
 import "./style.css";
 
 export default function Home() {
@@ -6,7 +7,9 @@ export default function Home() {
     <main>
       <div className="background" />
       <NavBar choose="홈" />
-      <div>Home</div>
+      <div className="inputWrapper">
+        <Input />
+      </div>
     </main>
   );
 }
