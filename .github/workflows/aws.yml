@@ -10,7 +10,7 @@ env:
   ECS_SERVICE: dpgg-client-service # set this to your Amazon ECS service name
   ECS_CLUSTER: dpgg-client # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION:
-    dpgg-web-task-defination # set this to the path to your Amazon ECS task definition
+    dpgg-client-task-defination # set this to the path to your Amazon ECS task definition
     # file, e.g. .aws/task-definition.json
   CONTAINER_NAME:
     dpgg-client # set this to the name of the container in the

@@ -34,7 +34,7 @@ export default function Home() {
         <Input />
       </div>
       <div onClick={login}>로그인</div>
-      <div onClick={checkToken}>토큰확인</div>
+      <div onClick={checkToken}>확인토큰</div>
     </main>
   );
 }
